@@ -1,0 +1,693 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: BoaCompra Payment Gateway\n"
+"POT-Creation-Date: 2019-10-18 14:44-0300\n"
+"PO-Revision-Date: 2019-10-18 14:48-0300\n"
+"Last-Translator: \n"
+"Language-Team: Jonathan Delgado <jonathan@ipag.com.br>\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.4\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_x\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: classes/boacompra-payment-base.php:42
+msgid "BoaCompra Settings"
+msgstr "Configurações BoaCompra"
+
+#: classes/boacompra-payment-gateway.php:14
+msgid "BoaCompra Payment for WooCommerce"
+msgstr "BoaCompra Payment for WooCommerce"
+
+#: classes/boacompra-payment-gateway.php:15
+msgid "Start selling in Latam with more than 140 local payments options."
+msgstr ""
+"Comece a vender na América Latina com mais de 140 opções de pagamento local."
+
+#: classes/boacompra-payment-gateway.php:91
+msgid "Enable / Disable"
+msgstr "Habilitar / Desabilitar"
+
+#: classes/boacompra-payment-gateway.php:93
+msgid "Enable BoaCompra Payment"
+msgstr "Habilitar Pagamentos via BoaCompra"
+
+#: classes/boacompra-payment-gateway.php:98
+msgid "Method Title"
+msgstr "Título do Método"
+
+#: classes/boacompra-payment-gateway.php:100
+msgid "This controls the title that users will see during checkout."
+msgstr ""
+"Esta opção define o título do método que o cliente irá visualizar durante o "
+"checkout."
+
+#: classes/boacompra-payment-gateway.php:101
+msgid "BoaCompra"
+msgstr "BoaCompra"
+
+#: classes/boacompra-payment-gateway.php:106
+msgid "BoaCompra Environment"
+msgstr "Ambiente BoaCompra"
+
+#: classes/boacompra-payment-gateway.php:110
+#: classes/boacompra-payment-gateway.php:151
+msgid "Choose Environment for BoaCompra Integration"
+msgstr "Escolha o Ambiente da Integração com o BoaCompra"
+
+#: classes/boacompra-payment-gateway.php:112
+msgid "Sandbox"
+msgstr "Sandbox"
+
+#: classes/boacompra-payment-gateway.php:113
+msgid "Production"
+msgstr "Produção"
+
+#: classes/boacompra-payment-gateway.php:117
+#: classes/boacompra-payment-gateway.php:119
+msgid "BoaCompra MerchantID"
+msgstr "MerchantID BoaCompra"
+
+#: classes/boacompra-payment-gateway.php:124
+#: classes/boacompra-payment-gateway.php:126
+msgid "BoaCompra SecretKey"
+msgstr "SecretKey BoaCompra"
+
+#: classes/boacompra-payment-gateway.php:132
+#: classes/boacompra-payment-gateway.php:134
+msgid "BoaCompra Sandbox MerchantID"
+msgstr "MerchantID BoaCompra (Sandbox)"
+
+#: classes/boacompra-payment-gateway.php:139
+#: classes/boacompra-payment-gateway.php:141
+msgid "BoaCompra Sandbox SecretKey"
+msgstr "SecretKey BoaCompra (Sandbox)"
+
+#: classes/boacompra-payment-gateway.php:147
+msgid "BoaCompra Mode"
+msgstr "Ambiente BoaCompra"
+
+#: classes/boacompra-payment-gateway.php:153
+msgid "Direct Checkout (Transparente)"
+msgstr "Direct Checkout (Transparente)"
+
+#: classes/boacompra-payment-gateway.php:154
+msgid "Hosted Checkout (Redirect)"
+msgstr "Hosted Checkout (Redirect)"
+
+#: classes/boacompra-payment-gateway.php:159
+msgid "Redirect Message"
+msgstr "Mensagem de Redirecionamento"
+
+#: classes/boacompra-payment-gateway.php:161
+msgid "Message showed to client on checkout"
+msgstr "Defina a mensagem que será exibida ao cliente durante o checkout"
+
+#: classes/boacompra-payment-gateway.php:162
+msgid "Confirm your order to be redirected to the payment page."
+msgstr "Confirme seu pedido para ser redirecionado para a página de pagamento."
+
+#: classes/boacompra-payment-gateway.php:167
+msgid "Direct Checkout Options"
+msgstr "Opções do Direct Checkout"
+
+#: classes/boacompra-payment-gateway.php:172
+#: classes/boacompra-payment-gateway.php:196
+msgid "Credit Card"
+msgstr "Cartão de Crédito"
+
+#: classes/boacompra-payment-gateway.php:174
+msgid "Enable Credit Card for Direct Checkout"
+msgstr "Habilitar Cartão de Crédito no Direct Checkout"
+
+#: classes/boacompra-payment-gateway.php:178
+msgid "Billet"
+msgstr "Boleto"
+
+#: classes/boacompra-payment-gateway.php:180
+msgid "Enable Billet for Direct Checkout"
+msgstr "Habilitar Boleto no Direct Checkout"
+
+#: classes/boacompra-payment-gateway.php:184
+#: classes/boacompra-payment-gateway.php:208
+msgid "E-Wallet"
+msgstr "PagSeguro/Paypal"
+
+#: classes/boacompra-payment-gateway.php:186
+msgid "Enable E-Wallet for Direct Checkout"
+msgstr "Habilitar E-Wallet no Direct Checkout"
+
+#: classes/boacompra-payment-gateway.php:191
+msgid "Hosted Checkout Payment Groups"
+msgstr "Grupos de Pagamento para Hosted Checkout"
+
+#: classes/boacompra-payment-gateway.php:198
+msgid "Enable Credit Card for Hosted Checkout"
+msgstr "Habilitar Cartão de Crédito no Hosted Checkout"
+
+#: classes/boacompra-payment-gateway.php:202
+msgid "Cash"
+msgstr "Boleto"
+
+#: classes/boacompra-payment-gateway.php:204
+msgid "Enable Cash for Hosted Checkout"
+msgstr "Habilitar Boleto no Hosted Checkout"
+
+#: classes/boacompra-payment-gateway.php:210
+msgid "Enable E-Wallet for Hosted Checkout"
+msgstr "Habilitar PagSeguro/Paypal no Hosted Checkout"
+
+#: classes/boacompra-payment-gateway.php:214
+msgid "Transfer"
+msgstr "Boleto/Débito Online"
+
+#: classes/boacompra-payment-gateway.php:216
+msgid "Enable Transfer for Hosted Checkout"
+msgstr "Habilitar Boleto/Débito Online no Hosted Checkout"
+
+#: classes/boacompra-payment-gateway.php:220
+msgid "SMS"
+msgstr "SMS"
+
+#: classes/boacompra-payment-gateway.php:222
+msgid "Enable SMS for Hosted Checkout (Turkey only)"
+msgstr "Habilitar SMS no Hosted Checkout (somente Turquia)"
+
+#: classes/boacompra-payment-gateway.php:227
+msgid "Credit Card Options"
+msgstr "Opções de Cartão de Crédito"
+
+#: classes/boacompra-payment-gateway.php:232
+msgid "Installment Within"
+msgstr "Parcelar em até"
+
+#: classes/boacompra-payment-gateway.php:234
+msgid "Maximum number of installments for orders in your store."
+msgstr "Número máximo de parcelas para pedidos na sua loja."
+
+#: classes/boacompra-payment-gateway.php:255
+msgid "Billet Options"
+msgstr "Opções de Boleto"
+
+#: classes/boacompra-payment-gateway.php:260
+msgid "Billet Checkout Message"
+msgstr "Mensagem de Checkout do Boleto"
+
+#: classes/boacompra-payment-gateway.php:262
+msgid "This controls the message that users will see before print the billet."
+msgstr "Defina a mensagem que será exibida ao cliente no pagamento via boleto."
+
+#: classes/boacompra-payment-gateway.php:263
+msgid ""
+"Após a confirmação do pedido, lembre-se de quitar o boleto o mais rápido "
+"possível."
+msgstr ""
+"Após a confirmação do pedido, lembre-se de quitar o boleto o mais rápido "
+"possível."
+
+#: classes/boacompra-payment-gateway.php:267
+msgid "Extra Options"
+msgstr "Opções Extras"
+
+#: classes/boacompra-payment-gateway.php:272
+msgid "Enable Module Logs"
+msgstr "Habilitar Logs do Módulo"
+
+#: classes/boacompra-payment-gateway.php:273
+msgid "Enable"
+msgstr "Habilitar"
+
+#: classes/boacompra-payment-gateway.php:277
+#, php-format
+msgid "Acesso aos logs do módulo: %s"
+msgstr "Acesso aos logs do módulo: %s"
+
+#: classes/boacompra-payment-gateway.php:281
+msgid "Status Iniciado"
+msgstr "Status Iniciado"
+
+#: classes/boacompra-payment-gateway.php:284
+#: classes/boacompra-payment-gateway.php:292
+msgid ""
+"O pedido mudará automaticamente para este status em caso de aprovação no "
+"BoaCompra"
+msgstr ""
+"O pedido mudará automaticamente para este status em caso de aprovação no "
+"BoaCompra"
+
+#: classes/boacompra-payment-gateway.php:289
+msgid "Status Aprovado"
+msgstr "Status Aprovado"
+
+#: classes/boacompra-payment-gateway.php:297
+msgid "Status Cancelado"
+msgstr "Status Cancelado"
+
+#: classes/boacompra-payment-gateway.php:300
+msgid ""
+"O pedido mudará automaticamente para este status quando a transação for "
+"cancelada no BoaCompra"
+msgstr ""
+"O pedido mudará automaticamente para este status quando a transação for "
+"cancelada no BoaCompra"
+
+#: classes/boacompra-payment-gateway.php:305
+msgid "Status Aguardando"
+msgstr "Status Aguardando"
+
+#: classes/boacompra-payment-gateway.php:308
+msgid ""
+"O pedido mudará automaticamente para este status quando a transação estiver "
+"no status aguardando no BoaCompra"
+msgstr ""
+"O pedido mudará automaticamente para este status quando a transação estiver "
+"no status aguardando no BoaCompra"
+
+#: classes/boacompra-payment-gateway.php:334
+#: templates/boacompra-payment-admin.php:58
+msgid "Imprimir Boleto"
+msgstr "Imprimir Boleto"
+
+#: classes/boacompra-payment-gateway.php:335
+msgid "Clique no link ao lado para imprimir o boleto."
+msgstr "Clique no link ao lado para imprimir o boleto."
+
+#: classes/boacompra-payment-gateway.php:337
+msgid "Wallet"
+msgstr "Wallet"
+
+#: classes/boacompra-payment-gateway.php:370
+#, php-format
+msgid "Você receberá um e-mail em %s com todos os detalhes do pedido."
+msgstr "Você receberá um e-mail em %s com todos os detalhes do pedido."
+
+#: classes/boacompra-payment-gateway.php:374
+msgid "Pending Payment."
+msgstr "Pagamento Pendente."
+
+#: classes/boacompra-payment-gateway.php:380
+msgid "Approved Payment."
+msgstr "Pagamento Aprovado."
+
+#: classes/boacompra-payment-gateway.php:389
+msgid "Not Authorised Payment."
+msgstr "Pagamento Não Autorizado."
+
+#: classes/boacompra-payment-gateway.php:541
+#: classes/boacompra-payment-gateway.php:696
+msgid "Invalid credit card number."
+msgstr "Cartão de Crédito Inválido."
+
+#: classes/boacompra-payment-gateway.php:542
+#: classes/boacompra-payment-gateway.php:697
+msgid "Invalid CVV."
+msgstr "CVV Inválido."
+
+#: classes/boacompra-payment-gateway.php:543
+#: classes/boacompra-payment-gateway.php:698
+msgid "Invalid name."
+msgstr "Nome Inválido."
+
+#: classes/boacompra-payment-gateway.php:544
+#: classes/boacompra-payment-gateway.php:699
+msgid "Invalid expiry date."
+msgstr "Data de Expiração Inválida."
+
+#: classes/boacompra-payment-gateway.php:545
+#: classes/boacompra-payment-gateway.php:700
+msgid "Expired card."
+msgstr "Cartão Expirado."
+
+#: classes/boacompra-payment-gateway.php:546
+#: classes/boacompra-payment-gateway.php:701
+msgid "Please choose an installment option."
+msgstr "Por favor, escolha uma opção de parcelamento."
+
+#: classes/boacompra-payment-gateway.php:614
+msgid ""
+"BoaCompra: The buyer initiated the transaction, but so far the BoaCompra not "
+"received any payment information."
+msgstr ""
+"BoaCompra: O comprador iniciou a transação, mas até agora o BoaCompra não "
+"recebeu nenhuma informação sobre o pagamento."
+
+#: classes/boacompra-payment-gateway.php:619
+msgid "BoaCompra: Payment under review."
+msgstr "BoaCompra: Pagamento em análise."
+
+#: classes/boacompra-payment-gateway.php:624
+msgid "BoaCompra: Payment approved."
+msgstr "BoaCompra: Pagamento aprovado."
+
+#: classes/boacompra-payment-gateway.php:629
+#: classes/boacompra-payment-gateway.php:641
+msgid "BoaCompra: Payment refunded."
+msgstr "BoaCompra: Pagamento reembolsado."
+
+#: classes/boacompra-payment-gateway.php:636
+msgid "BoaCompra: Payment canceled."
+msgstr "BoaCompra: Pagamento cancelado."
+
+#: classes/boacompra-payment-gateway.php:744
+msgid " Preencha o número do cartão."
+msgstr " Preencha o número do cartão."
+
+#: classes/boacompra-payment-gateway.php:746
+#: classes/boacompra-payment-gateway.php:751
+#: classes/boacompra-payment-gateway.php:755
+#: classes/boacompra-payment-gateway.php:759
+#: classes/boacompra-payment-gateway.php:764
+#: classes/boacompra-payment-gateway.php:769
+#: classes/boacompra-payment-gateway.php:785
+#: classes/boacompra-payment-gateway.php:949
+msgid "Pagamento não autorizado:"
+msgstr "Pagamento não autorizado:"
+
+#: classes/boacompra-payment-gateway.php:748
+msgid " Invalid credit card. Please verify and try again."
+msgstr " Cartão de crédito inválido. Por favor, verifique e tente novamente."
+
+#: classes/boacompra-payment-gateway.php:753
+msgid " Preencha o nome do cartão!"
+msgstr " Preencha o nome do cartão!"
+
+#: classes/boacompra-payment-gateway.php:757
+msgid " Preencha o CVV do cartão corretamente!"
+msgstr " Preencha o CVV do cartão corretamente!"
+
+#: classes/boacompra-payment-gateway.php:761
+msgid " Cartão expirado! Verifique a data de vencimento informada"
+msgstr " Cartão expirado! Verifique a data de vencimento informada"
+
+#: classes/boacompra-payment-gateway.php:766
+msgid " This card isn't accepted. Please choose another one!"
+msgstr " Este cartão não é aceito. Por favor, escolha outro!"
+
+#: classes/boacompra-payment-gateway.php:783
+msgid " Selecione o banco."
+msgstr " Selecione o banco."
+
+#: classes/boacompra-payment-gateway.php:881
+#: classes/boacompra-payment-gateway.php:908
+msgid "Pagamento não autorizado: "
+msgstr "Pagamento não autorizado: "
+
+#: classes/boacompra-payment-gateway.php:888
+msgid "Erro no pagamento, entre em contato com o lojista."
+msgstr "Erro no pagamento, entre em contato com o lojista."
+
+#: classes/boacompra-payment-gateway.php:896
+msgid "Ocorreu um timeout na transação. Aguardar retorno BoaCompra."
+msgstr "Ocorreu um timeout na transação. Aguardar retorno BoaCompra."
+
+#: classes/boacompra-payment-gateway.php:953
+msgid " Preencha o Endereço de cobrança."
+msgstr " Preencha o Endereço de cobrança."
+
+#: classes/boacompra-payment-gateway.php:956
+msgid ""
+" Tamanho máximo do endereço de cobrança excedido, limite: 160 caracteres."
+msgstr ""
+" Tamanho máximo do endereço de cobrança excedido, limite: 160 caracteres."
+
+#: classes/boacompra-payment-gateway.php:961
+msgid " Preencha o Número do endereço de cobrança."
+msgstr " Preencha o Número do endereço de cobrança."
+
+#: classes/boacompra-payment-gateway.php:964
+msgid ""
+" Tamanho máximo do número do endereço de cobrança excedido, limite: 20 "
+"caracteres."
+msgstr ""
+" Tamanho máximo do número do endereço de cobrança excedido, limite: 20 "
+"caracteres."
+
+#: classes/boacompra-payment-gateway.php:969
+msgid " Preencha o Bairro do endereço de cobrança."
+msgstr " Preencha o Bairro do endereço de cobrança."
+
+#: classes/boacompra-payment-gateway.php:972
+msgid ""
+" Tamanho máximo do bairro do endereço de cobrança excedido, limite: 60 "
+"caracteres."
+msgstr ""
+" Tamanho máximo do bairro do endereço de cobrança excedido, limite: 60 "
+"caracteres."
+
+#: classes/boacompra-payment-gateway.php:977
+msgid ""
+" Tamanho máximo do complemento do endereço de cobrança excedido, limite: 60 "
+"caracteres."
+msgstr ""
+" Tamanho máximo do complemento do endereço de cobrança excedido, limite: 60 "
+"caracteres."
+
+#: classes/boacompra-payment-gateway.php:982
+msgid " Preencha o CEP do endereço de cobrança."
+msgstr " Preencha o CEP do endereço de cobrança."
+
+#: classes/boacompra-payment-gateway.php:985
+msgid " CEP do endereço de cobrança inválido."
+msgstr " CEP do endereço de cobrança inválido."
+
+#: classes/boacompra-payment-gateway.php:990
+msgid " Preencha a Cidade do endereço de cobrança."
+msgstr " Preencha a Cidade do endereço de cobrança."
+
+#: classes/boacompra-payment-gateway.php:993
+msgid ""
+" Tamanho máximo da cidade do endereço de cobrança excedido, limite: 60 "
+"caracteres."
+msgstr ""
+" Tamanho máximo da cidade do endereço de cobrança excedido, limite: 60 "
+"caracteres."
+
+#: classes/boacompra-payment-gateway.php:998
+msgid " Preencha o Estado do endereço de cobrança."
+msgstr " Preencha o Estado do endereço de cobrança."
+
+#: classes/boacompra-payment-gateway.php:1001
+msgid " Estado do endereço de cobrança inválido, limite: 2 caracteres."
+msgstr " Estado do endereço de cobrança inválido, limite: 2 caracteres."
+
+#: classes/boacompra-payment-gateway.php:1008
+msgid " Preencha o Endereço de entrega."
+msgstr " Preencha o Endereço de entrega."
+
+#: classes/boacompra-payment-gateway.php:1011
+msgid ""
+" Tamanho máximo do endereço de entrega excedido, limite: 160 caracteres."
+msgstr ""
+" Tamanho máximo do endereço de entrega excedido, limite: 160 caracteres."
+
+#: classes/boacompra-payment-gateway.php:1016
+msgid " Preencha o Número do endereço de entrega."
+msgstr " Preencha o Número do endereço de entrega."
+
+#: classes/boacompra-payment-gateway.php:1019
+msgid ""
+" Tamanho máximo do número do endereço de entrega excedido, limite: 20 "
+"caracteres."
+msgstr ""
+" Tamanho máximo do número do endereço de entrega excedido, limite: 20 "
+"caracteres."
+
+#: classes/boacompra-payment-gateway.php:1024
+msgid " Preencha o Bairro do endereço de entrega."
+msgstr " Preencha o Bairro do endereço de entrega."
+
+#: classes/boacompra-payment-gateway.php:1027
+msgid ""
+" Tamanho máximo do bairro do endereço de entrega excedido, limite: 60 "
+"caracteres."
+msgstr ""
+" Tamanho máximo do bairro do endereço de entrega excedido, limite: 60 "
+"caracteres."
+
+#: classes/boacompra-payment-gateway.php:1032
+msgid ""
+" Tamanho máximo do complemento do endereço de entrega excedido, limite: 60 "
+"caracteres."
+msgstr ""
+" Tamanho máximo do complemento do endereço de entrega excedido, limite: 60 "
+"caracteres."
+
+#: classes/boacompra-payment-gateway.php:1037
+msgid " Preencha o CEP do endereço de entrega."
+msgstr " Preencha o CEP do endereço de entrega."
+
+#: classes/boacompra-payment-gateway.php:1040
+msgid " CEP do endereço de entrega inválido."
+msgstr " CEP do endereço de entrega inválido."
+
+#: classes/boacompra-payment-gateway.php:1045
+msgid " Preencha a Cidade do endereço de entrega."
+msgstr " Preencha a Cidade do endereço de entrega."
+
+#: classes/boacompra-payment-gateway.php:1048
+msgid ""
+" Tamanho máximo da cidade do endereço de entrega excedido, limite: 60 "
+"caracteres."
+msgstr ""
+" Tamanho máximo da cidade do endereço de entrega excedido, limite: 60 "
+"caracteres."
+
+#: classes/boacompra-payment-gateway.php:1053
+msgid " Preencha o Estado do endereço de entrega."
+msgstr " Preencha o Estado do endereço de entrega."
+
+#: classes/boacompra-payment-gateway.php:1056
+msgid " Estado do endereço de entrega inválido, limite: 2 caracteres."
+msgstr " Estado do endereço de entrega inválido, limite: 2 caracteres."
+
+#: classes/boacompra-payment-gateway.php:1063
+msgid " Preencha o Nome do comprador."
+msgstr " Preencha o Nome do comprador."
+
+#: classes/boacompra-payment-gateway.php:1066
+msgid " Tamanho máximo do nome do comprador excedido, limite: 255 caracteres."
+msgstr " Tamanho máximo do nome do comprador excedido, limite: 255 caracteres."
+
+#: classes/boacompra-payment-gateway.php:1071
+msgid " CPF do comprador inválido."
+msgstr " CPF do comprador inválido."
+
+#: classes/boacompra-payment-gateway.php:1077
+msgid " Telefone do comprador inválido."
+msgstr " Telefone do comprador inválido."
+
+#: classes/boacompra-payment-gateway.php:1082
+msgid " Preencha o Email do comprador."
+msgstr " Preencha o Email do comprador."
+
+#: classes/boacompra-payment-gateway.php:1085
+msgid " Email do comprador inválido."
+msgstr " Email do comprador inválido."
+
+#: classes/boacompra-payment-gateway.php:1088
+msgid " Tamanho máximo do email do comprador excedido, limite: 60 caracteres."
+msgstr " Tamanho máximo do email do comprador excedido, limite: 60 caracteres."
+
+#: classes/boacompra-payment-gateway.php:1094
+msgid " Dados do cartão de crédito inválidos."
+msgstr " Dados do cartão de crédito inválidos."
+
+#: classes/boacompra-payment-gateway.php:1577
+msgid ""
+"O prazo máximo para solicitar um reembolso é de até 90 dias após a data de "
+"compra."
+msgstr ""
+"O prazo máximo para solicitar um reembolso é de até 90 dias após a data de "
+"compra."
+
+#: classes/boacompra-payment-gateway.php:1584
+msgid ""
+"Transação não possui transaction-code. Por favor, consulte a transação "
+"através do botão \"Consulta\" e tente novamente."
+msgstr ""
+"Transação não possui transaction-code. Por favor, consulte a transação "
+"através do botão \"Consulta\" e tente novamente."
+
+#: classes/boacompra-payment-gateway.php:1637
+#, php-format
+msgid "Ocorreu um erro ao efetuar o reembolso. (%1$s) %2$s"
+msgstr "Ocorreu um erro ao efetuar o reembolso. (%1$s) %2$s"
+
+#: classes/boacompra-payment-gateway.php:1646
+#, php-format
+msgid "Status (%1$s) não permite refund."
+msgstr "Status (%1$s) não permite reembolso."
+
+#: classes/boacompra-payment-gateway.php:1754
+msgid "Logs"
+msgstr "Logs"
+
+#: templates/boacompra-payment-admin.php:9
+msgid "Payment Details"
+msgstr "Detalhes do Pagamento"
+
+#: templates/boacompra-payment-admin.php:12
+msgid "Method:"
+msgstr "Método:"
+
+#: templates/boacompra-payment-admin.php:14
+msgid "Transaction ID:"
+msgstr "ID da Transação:"
+
+#: templates/boacompra-payment-admin.php:16
+msgid "BoaCompra Status:"
+msgstr "Status BoaCompra:"
+
+#: templates/boacompra-payment-admin.php:18
+msgid "Transaction Message:"
+msgstr "Mensagem da Transação:"
+
+#: templates/boacompra-payment-admin.php:21
+msgid "Installments:"
+msgstr "Parcelas:"
+
+#: templates/boacompra-payment-admin.php:25
+msgid "Card Brand:"
+msgstr "Bandeira do Cartão:"
+
+#: templates/boacompra-payment-admin.php:28
+msgid "Consulta"
+msgstr "Consulta"
+
+#: templates/boacompra-payment-admin.php:34
+msgid "Consultando..."
+msgstr "Consultando..."
+
+#: templates/boacompra-payment-admin.php:48
+msgid "Consultado"
+msgstr "Consultado"
+
+#: templates/boacompra-payment-admin.php:60
+msgid "Transferência Bancária"
+msgstr "Transferência Bancária"
+
+#: templates/boacompra-payment-transparent.php:807
+msgid "Titular do Cartão"
+msgstr "Titular do Cartão"
+
+#: templates/boacompra-payment-transparent.php:812
+msgid "Número do Cartão"
+msgstr "Número do Cartão"
+
+#: templates/boacompra-payment-transparent.php:820
+msgid "Expiry (MM/YYYY)"
+msgstr "Vencimento (MM/YYYY)"
+
+#: templates/boacompra-payment-transparent.php:824
+msgid "CVV"
+msgstr "CVV"
+
+#: templates/boacompra-payment-transparent.php:830
+msgid "Installments Number:"
+msgstr "Número de Parcelas:"
+
+#~ msgid "BoaCompra Payment"
+#~ msgstr "Pagamento via BoaCompra"
+
+#~ msgid "Accept payments via BoaCompra."
+#~ msgstr "Aceite Pagamentos via BoaCompra"
+
+#~ msgid "CPF"
+#~ msgstr "CPF"
+
+#~ msgid "Telefone de Contato"
+#~ msgstr "Telefone de Contato"
+
+#~ msgid "CPF do portador do cartão"
+#~ msgstr "CPF do portador do cartão"
+
+#~ msgid "Data de Nascimento"
+#~ msgstr "Data de Nascimento"
+
+#~ msgid "BoaCompra Credit Payment"
+#~ msgstr "Cartão de Crédito BoaCompra"
